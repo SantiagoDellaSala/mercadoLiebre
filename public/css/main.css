@@ -1,5 +1,7 @@
 .home__main {
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
 }
 
 .home__main__banner {
@@ -11,15 +13,43 @@
 }
 
 .home__main__section {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home__main__section--titular h3{
     font-size: var(--Titulares);
+    color: var(--Grisoscuro);
 }
 
-.home__main__section--article {
+.home__main__section__article {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 0;
+}
+
+.home__main__section__article--contenedor {
+    border-top: 1px solid #d2d2d2;
+    padding: 15px;
+}
+
+.home__main__section__article--contenedor i{
+    color: var(--Verde);
+    padding: 5px;
+    border: 1.5px solid var(--Verde);
+    border-radius: 50%;
+}
+
+.home__main__section__article--contenedor .descuento{
+    color: var(--Verde);
+}
+
+.home__main__section__article--contenedor h5 {
+    margin-top: 10px;
+    color: var(--Grisoscuro);
+    display: none;
 }

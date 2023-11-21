@@ -3,7 +3,7 @@
     --Azul: #03264C;
     --Celeste: #1259c3;
     --Grisoscuro: #666;
-    --Grisclaro: #c7c7c7;
+    --Grisclaro: #a4a4a4;
     --Verde: #39b54a;
 
     --Rb: 'Roboto', sans-serif;
@@ -33,4 +33,8 @@ a {
 
 ul, ol {
     list-style: none;
+}
+
+hr {
+    margin: 15px 0;
 }

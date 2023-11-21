@@ -1,0 +1,25 @@
+/* TABLET */
+@media (min-width: 361px){
+    /* HEADER */
+    .home__header__listas {
+        display: block;
+    }
+
+    .home__header__menuBurguer {
+        display: none;
+    }
+    
+    /* MAIN */
+    .home__main__section__article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .home__main__section__article--contenedor h5 {
+        display: block;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px){
+    
+}
