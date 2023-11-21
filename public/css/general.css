@@ -1,0 +1,36 @@
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Grisoscuro: #666;
+    --Grisclaro: #c7c7c7;
+    --Verde: #39b54a;
+
+    --Rb: 'Roboto', sans-serif;
+
+    --Cuerposdetexto: 12px;
+    --Titulares: 24px;
+    --Precios: 18px;
+    --Descuentos: 16px;
+    --Descripciones: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: var(--Rb);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul, ol {
+    list-style: none;
+}

@@ -1,0 +1,25 @@
+.home__main {
+    width: 100%;
+}
+
+.home__main__banner {
+    width: 100%;
+}
+
+.home__main__banner img {
+    width: 100%;
+}
+
+.home__main__section {
+    width: 90%;
+}
+
+.home__main__section--titular h3{
+    font-size: var(--Titulares);
+}
+
+.home__main__section--article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

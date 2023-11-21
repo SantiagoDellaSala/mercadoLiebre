@@ -3,39 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/823b55d81b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Mercado Libre</title>
 </head>
-<body>
-    <header>
-        <div class="home__header__logo"><img src="/images/LOGO.png" alt="logo"></div>
+<body class="home">
+    <header class="home__header">
+        <div class="home__header__logo">
+            <img src="/images/LOGO.png" alt="logo">
+        </div>
         <div class="home__header__busqueda">
-            <h4>Lugar para poner la barra de búsqueda</h4>
+            <input type="text" placeholder="Búsqueda...">
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <div class="home__header__compraCuotas">
-            <h4>Comprá en cuotas y sin tarjeta de crédito</h4>
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <h5>Comprá en cuotas y sin tarjeta de crédito</h5>
         </div>
-        <div>
+        <div class="home__header__listas">
             <nav>
                 <ul>
-                    <li><a href="#"></a>Ofertas</li>
-                    <li><a href="#"></a>Tiendas Oficiales</li>
-                    <li><a href="#"></a>Vender</li>
-                    <li><a href="#"></a>Ayuda</li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
                 </ul>
             </nav>
             <nav>
                 <ul>
-                    <li><a href="#"></a>Creá tu cuenta</li>
-                    <li><a href="#"></a>Ingresá</li>
-                    <li><a href="#"></a>Mis comprás</li>
+                    <li><a href="#">Creá tu cuenta</a><i class="fa-solid fa-address-card"></i></li>
+                    <li><a href="#">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li><a href="#">Mis comprás</a><i class="fa-solid fa-basket-shopping"></i></li>
                 </ul>
             </nav>
+        </div>
+        <div class="home__header__menuBurguer">
+            <i class="fa-solid fa-bars"></i>
         </div>
     </header>
-    <main>
-        <div class="home__main__banner"><img src="/images/BANNER.png" alt="banner"></div>
-        <section class="home__main__section1">
-            <h3>Basado en tu última visita</h3>
+
+    <main class="home__main">
+        <div class="home__main__banner">
+            <img src="/images/banner-mercadolibre.jpg" alt="banner">
+        </div>
+        <section class="home__main__section">
+            <div class="home__main__section--titular"><h3 class="home__main__section--titular">Basado en tu última visita</h3></div>
             <article class="home__main__section--article">
                 <img src="/images/CAFETERA-MOULINEX.jpg" alt="cafetera">
                 <p class="precio">$6.770</p>
@@ -61,8 +73,8 @@
                 <h5>SmartTv Samsung 43"</h5>
             </article>
         </section>
-        <section class="home__main__section2">
-            <h3>Ofertas</h3>
+        <section class="home__main__section">
+            <div class="home__main__section--titular"><h3>Ofertas</h3></div>
             <article class="home__main__section--article">
                 <img src="/images/CAFETERA-MOULINEX.jpg" alt="cafetera">
                 <p class="precio">$6.770</p>
@@ -89,23 +101,27 @@
             </article>
         </section>
     </main>
-    <footer>
-        <div>
+
+    <footer class="home__footer">
+        <div class="home__footer__contenedor">
+            <i class="fa-solid fa-credit-card"></i>
             <h4>Pagá con tarjeta o en efectivo</h4>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro!</p>
         </div>
-        <div>
+        <div  class="home__footer__contenedor">
+            <i class="fa-solid fa-gift"></i>
             <h4>Envío gratis desde $ 2.500</h4>
             <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.</p>
         </div>
-        <div>
+        <div class="home__footer__contenedor">
+            <i class="fa-solid fa-user-shield"></i>
             <h4>Seguridad, de principio a fin</h4>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
         </div>
-        <div>
+        <div class="home__footer__contenedor2">
             <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
         </div>
     </footer>
