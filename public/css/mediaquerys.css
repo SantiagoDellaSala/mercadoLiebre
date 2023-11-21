@@ -5,10 +5,29 @@
         display: block;
     }
 
-    .home__header__menuBurguer {
+    .home__header__menuBurguer i{
         display: none;
     }
     
+    .home__header__compraCuotas {
+        font-size: var(--Titulares);
+    }
+
+    .home__header__listas nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home__header__listas nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    ul li{
+        display: inline;
+    }
+
     /* MAIN */
     .home__main__section__article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -17,6 +36,7 @@
     .home__main__section__article--contenedor h5 {
         display: block;
     }
+
 }
 
 /* DESKTOP */
