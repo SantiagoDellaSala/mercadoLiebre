@@ -17,11 +17,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem 0;
+}
+
+.home__main__section--titular {
+    width: 100%;
 }
 
 .home__main__section--titular h3{
     font-size: var(--Titulares);
     color: var(--Grisoscuro);
+}
+
+.home__main__section__article--contenedor {
+    width: 100%;
 }
 
 .home__main__section__article {
@@ -36,14 +45,14 @@
     width: 100%;
 }
 
-.home__main__section__article--contenedor {
+.home__main__section__article--contenedor2 {
     width: 100%;
     border-top: 1px solid #d2d2d2;
     padding: 15px;
     position: relative;
 }
 
-.home__main__section__article--contenedor i{
+.home__main__section__article--contenedor2 i{
     color: var(--Verde);
     padding: 5px;
     border: 1.5px solid var(--Verde);
@@ -53,24 +62,24 @@
     top: -15px;
 }
 
-.home__main__section__article--contenedor h5 {
+.home__main__section__article--contenedor2 h5 {
     margin-top: 10px;
     color: var(--Grisoscuro);
     display: none;
 }
 
-.home__main__section__article--contenedor div {
+.home__main__section__article--contenedor2 div {
     display: flex;
     width: 100%;
     gap: 2.3rem;
 }
 
-.home__main__section__article--contenedor div .precio{
+.home__main__section__article--contenedor2 div .precio{
     width: 30%;
     font-size: var(--Precios);
 }
 
-.home__main__section__article--contenedor div .descuento{
+.home__main__section__article--contenedor2 div .descuento{
     width: 70%;
     color: var(--Verde);
     font-size: var(--Descuentos);
