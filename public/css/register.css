@@ -1,0 +1,73 @@
+.register__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__main__form {
+    min-width: 250px;
+    max-width: 400px;
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Amarillo);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    gap: 10px;
+    border-radius: 3px;
+}
+
+.register__main__form input {
+    padding: 5px;
+    border: 0.5px solid var(--Grisclaro);
+    border-radius: 3px;
+}
+
+.register__main__form h4 {
+    font-weight:400;
+}
+
+.button__date {
+    width: 155px;
+}
+
+.register__main__form--perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.register__main__form--perfil2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.register__main__form--perfil2 div {
+    display: flex;
+}
+
+.register__main__form--foto input {
+    width: 200px;
+}
+
+.register__main__form--botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.register__main__form--botones button {
+    padding: 5px;
+    background-color: var(--Celeste);
+    color: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+}
