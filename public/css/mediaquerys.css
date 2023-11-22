@@ -1,6 +1,10 @@
 /* TABLET */
-@media (min-width: 361px){
+@media (min-width: 392px){
     /* HEADER */
+    .home__header {
+        width: 100%;
+    }
+    
     .home__header__listas {
         display: block;
     }
@@ -29,6 +33,16 @@
     }
 
     /* MAIN */
+    .home__main {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .home__main__section {
+        width: 100%;
+    }
+    
     .home__main__section__article--contenedor {
         width: 100%;
         display: flex;
@@ -48,6 +62,6 @@
 }
 
 /* DESKTOP */
-@media (min-width: 769px){
+@media (min-width: 1024px){
     
 }

@@ -14,13 +14,9 @@
 
 .home__main__section {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem 0;
 }
 
-.home__main__section--titular {
+.home__main__section--titular--contenedor {
     width: 100%;
 }
 
@@ -31,14 +27,15 @@
 
 .home__main__section__article--contenedor {
     width: 100%;
-}
-
-.home__main__section__article {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home__main__section__article {
+    width: 100%;
     margin: 10px 0;
+    border: 0.5px solid var(--Grisclaro);
 }
 
 .home__main__section__article img {
@@ -70,8 +67,9 @@
 
 .home__main__section__article--contenedor2 div {
     display: flex;
+    justify-content: space-around;
     width: 100%;
-    gap: 2.3rem;
+    gap: 1.5rem;
 }
 
 .home__main__section__article--contenedor2 div .precio{
