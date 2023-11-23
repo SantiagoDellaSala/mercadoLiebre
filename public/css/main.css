@@ -56,7 +56,9 @@
 .home__main__section__article--contenedor h5 {
     margin-top: 10px;
     color: var(--Grisoscuro);
-    display: none;
+    overflow: hidden;
+    height: 0;
+    transition: all 1s;
 }
 
 .home__main__section__article--contenedor div {
