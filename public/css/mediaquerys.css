@@ -33,6 +33,11 @@
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     
+    .home__main__section--articulos {
+        display: flex;
+        gap: 10px;
+    }
+
     .home__main__section__article--contenedor h5 {
         display: block;
     }

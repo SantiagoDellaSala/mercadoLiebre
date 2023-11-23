@@ -48,40 +48,11 @@
             <i class="fa-solid fa-bars"></i>
         </div>
     </header>
-
-    <main class="register__main">
-        <form action="#" class="register__main__form">
-            <h4><u>FORMULARIO DE REGISTRO</u></h4>
-            <div class="register__main__form--perfil">
-                <input type="text" placeholder="Nombre y apellido">
-                <input type="text" placeholder="Usuario">
-                <input type="email" placeholder="ejemplo@ejemplo.com">
-                <input type="password" placeholder="Contraseña">
-                <input type="password" placeholder="Repetir contraseña">
-                <input type="text" placeholder="Domicilio">
-                <input class="button__date" type="date" placeholder="Fecha de nacimiento">
-            </div>
-            <div class="register__main__form--perfil2">
-                <p><u>Perfíl de usuario</u></p>
-                <div><input name="radioperfil" id="radioperfil" type="radio"><p><em>Comprador</em></p></div>
-                <div><input name="radioperfil" id="radioperfil" type="radio"><p><em>Vendedor</em></p></div>
-            </div>
-            <div class="register__main__form--perfil2">
-                <p><u>Categorías de interés</u></p>
-                <div><input name="checkperfil" id="checkperfil" type="checkbox"><p><em>Electro</em></p></div>
-                <div><input name="checkperfil" id="checkperfil" type="checkbox"><p><em>Moda</em></p></div>
-                <div><input name="checkperfil" id="checkperfil" type="checkbox"><p><em>Hogar</em></p></div>
-                <div><input name="checkperfil" id="checkperfil" type="checkbox"><p><em>Juguetería</em></p></div>
-                <div><input name="checkperfil" id="checkperfil" type="checkbox"><p><em>Vida sana</em></p></div>
-            </div>
-            <div class="register__main__form--foto">
-                <p><u>Selecciona tu foto de perfíl</u></p>
-                <input name="fotoPerfil" type="file" id="fotoPerfil">
-            </div>
-            <div class="register__main__form--botones">
-                <button type="submit">ENVIAR</button>
-                <button type="reset">RESETEAR</button>
-            </div>
+    <main class="login__main">
+        <form action="#">
+            <input type="text" placeholder="Usuario" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ\s]{2,}" title="Ingresar más de 2 caracteres">
+            <input type="password" placeholder="Contraseña">
+            <button><a class="ingresar" href="/">INGRESAR</a></button>
         </form>
     </main>
     <hr>
